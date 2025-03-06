@@ -53,9 +53,9 @@ print(folder_contents_df)
 **Example Output:**
 
 ```
-                      File Name    Size (Bytes)
-0  Documents/winequalityN.csv         12456
-1  report.xlsx                        34200
+ File Name    Size (Bytes)
+0  Documents/winequalityN.csv          12456
+1  report.xlsx                         34200
 ```
 
 ### 2️⃣ Read a File from S3
