@@ -54,8 +54,8 @@ print(folder_contents_df)
 
 ```
                 File Name  Size (Bytes)
-0  DAX-6871/data.csv         12456
-1  DAX-6871/report.xlsx      34200
+0  Documents/winequalityN.csv         12456
+1  report.xlsx      34200
 ```
 
 ### 2️⃣ Read a File from S3
