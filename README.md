@@ -10,12 +10,12 @@ This code provides a **versatile** ETL pipeline for interacting with AWS S3 usin
 
 ## Features
 
-✅ **Multi-format support**: Read CSV, TSV, and Excel files dynamically.\
-✅ **Scalable data processing**: Leverages **Dask** for large dataset handling.\
-✅ **Automated S3 management**: Easily list, upload, and delete files and folders.\
-✅ **Secure credentials handling**: Configure authentication securely to avoid exposure.\
-✅ **Cleanup utilities**: Delete folders and files programmatically.\
-✅ **Parallel processing**: Efficiently processes files by inferring and applying correct data types.
+**Multi-format support**: Read CSV, TSV, and Excel files dynamically.\
+**Scalable data processing**: Leverages **Dask** for large dataset handling.\
+**Automated S3 management**: Easily list, upload, and delete files and folders.\
+**Secure credentials handling**: Configure authentication securely to avoid exposure.\
+**Cleanup utilities**: Delete folders and files programmatically.\
+**Parallel processing**: Efficiently processes files by inferring and applying correct data types.
 
 ## Setup
 
@@ -43,7 +43,7 @@ export AWS_SECRET_ACCESS_KEY="your-secret-key"
 
 ## Usage
 
-### 1️⃣ List Folder Contents in S3
+### 1️. List Folder Contents in S3
 
 ```python
 folder_contents_df = list_folder_contents(bucket_name, folder_path)
@@ -58,20 +58,20 @@ print(folder_contents_df)
 1  report.xlsx                         34200
 ```
 
-### 2️⃣ Read a File from S3
+### 2️. Read a File from S3
 
 ```python
 s3_file_df = read_s3_file(bucket_name, s3_file_path)
 s3_file_df.head()
 ```
 
-### 3️⃣ Upload a File to S3
+### 3️. Upload a File to S3
 
 ```python
 upload_file(bucket_name, folder_path, local_file_path)
 ```
 
-### 4️⃣ Delete a Folder from S3
+### 4️. Delete a Folder from S3
 
 ```python
 delete_folder(bucket_name, folder_path)
@@ -85,10 +85,10 @@ delete_folder(bucket_name, folder_path)
 
 ## Best Practices
 
-🔹 **Avoid hardcoding credentials** – use AWS IAM roles or environment variables.\
-🔹 **Optimise large file processing** – leverage `Dask` for distributed computing.\
-🔹 **Use logging and error handling** – implement robust error recovery to prevent failures.\
-🔹 **Enable retry mechanisms** – ensure resilience in case of transient failures in S3 operations.
+**Avoid hardcoding credentials** – use AWS IAM roles or environment variables.\
+**Optimise large file processing** – leverage `Dask` for distributed computing.\
+**Use logging and error handling** – implement robust error recovery to prevent failures.\
+**Enable retry mechanisms** – ensure resilience in case of transient failures in S3 operations.
 
 ## Contributing
 
@@ -96,4 +96,4 @@ Contributions are welcome! Feel free to submit issues or pull requests.
 
 ---
 
-🚀 **Designed for Data Engineers & Scientists handling S3-based ETL workflows.**
+**Designed for Data Engineers & Scientists handling S3-based ETL workflows.**
