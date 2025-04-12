@@ -10,12 +10,12 @@ This code provides a **versatile** ETL pipeline for interacting with AWS S3 usin
 
 ## Features
 
-**Multi-format support**: Read CSV, TSV, and Excel files dynamically.\
-**Scalable data processing**: Leverages **Dask** for large dataset handling.\
-**Automated S3 management**: Easily list, upload, and delete files and folders.\
-**Secure credentials handling**: Configure authentication securely to avoid exposure.\
-**Cleanup utilities**: Delete folders and files programmatically.\
-**Parallel processing**: Efficiently processes files by inferring and applying correct data types.
+- **Multi-format support**: Read CSV, TSV, and Excel files dynamically.\
+- **Scalable data processing**: Leverages **Dask** for large dataset handling.\
+- **Automated S3 management**: Easily list, upload, and delete files and folders.\
+- **Secure credentials handling**: Configure authentication securely to avoid exposure.\
+- **Cleanup utilities**: Delete folders and files programmatically.\
+- **Parallel processing**: Efficiently processes files by inferring and applying correct data types.
 
 ## Setup
 
