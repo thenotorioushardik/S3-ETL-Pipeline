@@ -95,5 +95,3 @@ delete_folder(bucket_name, folder_path)
 Contributions are welcome! Feel free to submit issues or pull requests.
 
 ---
-
-**Designed for Data Engineers & Scientists handling S3-based ETL workflows.**
